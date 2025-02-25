@@ -1,0 +1,515 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 90px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 15px;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer-column p {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+    line-height: 1.8;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: #ccc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 32px;
+}
+
+.social-icons a img {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #e9e9e9;
+    padding: 35px;
+    font-size: 12px;
+    color: #777;
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 992px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-column {
+        margin-bottom: 20px;
+    }
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 60px 20px;
+    }
+    .footer-column {
+        margin-bottom: 15px;
+    }
+    .footer-column h4 {
+        font-size: 14px;
+    }
+    .footer-column p {
+        font-size: 12px;
+    }
+    .social-icons a {
+        width: 28px;
+        height: 28px;
+    }
+    .social-icons a img {
+        width: 18px;
+        height: 18px;
+    }
+    .copyright {
+        padding: 25px;
+        font-size: 10px;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif; 
+    font-family: 'Fira Sans', sans-serif; 
+}
+
+.banner {
+    background-color: #f59720; 
+    border: 2px solid #ffcc00; 
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 0px;
+    position: relative;
+    width: 99%; 
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.banner-subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.contact-button {
+    background-color: #ffcc00; 
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+.contact-button:hover {
+    background-color: rgba(252, 185, 0, 1); 
+}
+.contact-icon {
+    margin-left: 10px;
+}
+
+.background-banner {
+    background-color: #FFD700; 
+    /* background-image: url('https://example.com/yellow-background.jpg'); */
+    background-size: cover;
+    background-position: center;
+    width: 99.2vw; 
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; 
+    padding-right: 20px; 
+    color: #ffffff;
+    text-align: right; 
+    box-sizing: border-box; 
+    overflow: hidden; 
+}
+
+.main-title {
+    font-size: 70px;
+    font-family: 'Fira Sans', sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    font-weight: 380;
+    margin-bottom: 20px;
+    text-align: right; 
+}
+
+.subtitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Fira Sans', sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    font-weight: 300;
+    text-align: right; 
+}
+
+@media screen and (max-width: 992px) {
+    .background-banner {
+        height: 300px; 
+        padding-right: 10px; 
+    }
+    .main-title {
+        font-size: 50px; 
+    }
+    .subtitle {
+        font-size: 20px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .background-banner {
+        height: 250px; 
+        padding-right: 10px; 
+        text-align: right; 
+        align-items: right; 
+    }
+    .main-title {
+        font-size: 32px;
+    }
+    .subtitle {
+        font-size: 16px;
+    }
+    .banner {
+        height: 200px;
+        padding: 30px 0px;
+    }
+    .banner-title {
+        font-size: 20px; 
+    }
+    .banner-subtitle {
+        font-size: 16px; 
+    }
+    .contact-button {
+        font-size: 14px;
+    }
+    .contact-icon {
+        margin-left: 5px; 
+    
+}
+
+
+@media screen and (max-width: 992px) {
+    .background-banner {
+        height: 300px; 
+        padding-right: 10px; 
+    }
+    .main-title {
+        font-size: 50px; 
+    }
+    .subtitle {
+        font-size: 20px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .background-banner {
+        height: 250px; 
+        padding-right: 10px; 
+        text-align: right; 
+        align-items: right; 
+    }
+    .main-title {
+        font-size: 32px; 
+    }
+    .subtitle {
+        font-size: 16px; 
+    }
+}
+
+
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 95%;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.containert {
+    max-width: 900px;
+}
+
+.form-section {
+    flex: 1;
+    margin-right: 60px;
+}
+
+.info-section {
+    flex: 1;
+    margin-left: 60px;
+}
+
+.hire-us h2 {
+    font-size: 36px;
+    letter-spacing: 0.7px;
+    font-weight: 300;
+    margin-left: -0px;
+}
+
+.info-section h3 {
+    font-size: 34px;
+    color: #000000;
+    letter-spacing: 0.7px;
+    font-weight: 300;
+    text-align: right;
+
+}
+
+.info-box p {
+    font-size: 18px;
+    margin: 0 0 70px 0;
+    color: #808080;
+    letter-spacing: 0.7px;
+    font-weight: 300;
+    text-align: right;
+
+    direction: rtl;
+}
+
+.info-boxx p {
+    font-size: 18px;
+    margin: 0;
+    text-align: right;
+    color: #808080;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    margin-left: -40px;
+    border-radius: 0px;
+    text-align: right;
+    height: calc(1.5em + 6px);
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    min-height: 210px;
+}
+
+.contact-form button {
+    padding: 25px 10px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 140px;
+    background-color: #f6c427;
+    color: #000000;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #ffdb58;
+}
+
+.info-box {
+    margin-bottom: 50px;
+}
+
+.info-box h3,
+.info-box p {
+    margin: 0 0 50px 0;
+    
+}
+
+
+#map {
+    height: 400px; /* ارتفاع نقشه */
+    width: 100%; /* عرض کامل */
+  }
+  
+.form-section .hire-us p {
+    color: #808080;
+    margin-left: -40px;
+}
+
+.info-section h3.available {
+    font-size: 18px;
+    color: #000000;
+}
+
+.info-box .compact {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.info-boxx .phone-number {
+    color: #000000;
+}
+
+.description {
+    max-width: 800px;
+}
+.qr-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.qr-code {
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-top: -180px;
+    margin-left: -240px;
+}
+
+.qr-code:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* Media queries برای ریسپانسیو کردن */
+@media screen and (max-width: 992px) {
+    .container {
+        flex-direction: column;
+    }
+    .form-section, .info-section {
+        margin: 20px 0;
+        width: 100%;
+    }
+    .contact-form input, .contact-form textarea, .contact-form button {
+        margin-left: 0;
+        width: calc(100% - 40px); /* اطمینان از داخل بودن ورودی‌ها در عرض صفحه */
+    }
+    .contact-form textarea {
+        width: calc(100% - 40px);
+    }
+    .info-section h3, .info-box p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .form-section, .info-section {
+        margin: 10px 0;
+    }
+    .contact-form input, .contact-form textarea, .contact-form button {
+        margin-left: 0;
+        width: calc(100% - 20px); /* اطمینان از داخل بودن ورودی‌ها در عرض صفحه */
+    }
+    .contact-form textarea {
+        min-height: 150px;
+    }
+    .contact-form button {
+        font-size: 12px;
+        padding: 15px;
+    }
+    .hire-us h2 {
+        font-size: 24px;
+        margin-left: 0;
+    }
+    .info-section h3 {
+        font-size: 24px;
+    }
+    .info-box p {
+        font-size: 14px;
+    }
+    .qr-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0;
+    }
+    
+    .qr-code {
+        max-width: 150px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+        margin-top: -0px;
+        margin-left: 200px;
+    }
+}
+
+
+.instagram-link {
+    align-items: center;
+    text-decoration: none; /* حذف خط زیر لینک */
+}
+
+.instagram-icon {
+    width: 25px; /* اندازه آیکون */
+    height: 25px; /* اندازه آیکون */
+    margin-left: 5px; /* فاصله بین آیکون و نوشته */
+    position: relative; /* موقعیت‌دهی آیکون */
+    top: 5px; /* حرکت آیکون به پایین */
+}
+
+
+.instagram-link:hover {
+    color: #C13584; /* رنگ خاص اینستاگرام هنگام هاور */
+    text-decoration: none; /* حذف خط زیر لینک */
+}
+
