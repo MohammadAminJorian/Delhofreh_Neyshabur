@@ -14,7 +14,7 @@ Delhafra corporate website
 and ...
 <br>
 
-# You can view this website at delhofreh.ir
+# You can view this website at https://delhofreh.ir
 
 <br>
 <br>
@@ -35,7 +35,7 @@ and ...
 و...
 
 <br>
-# می توانید این وبسایت را در delhofreh.ir مشاهده کنید
+# می توانید این وبسایت را در https://delhofreh.ir مشاهده کنید
 
 
 <br>
